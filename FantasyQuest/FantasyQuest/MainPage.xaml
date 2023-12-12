@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FantasyQuest.MainPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <Button Text="Остаться в таверне" Clicked="ButtonStayInTavern_Clicked" BackgroundColor="DarkGray" BorderColor="Black" BorderRadius="10"/>
+        <Button Text="Отправиться в путешествие" Clicked="ButtonGoOnJourney_Clicked" BackgroundColor="DarkGray" BorderColor="Black" BorderRadius="10"/>
+        <Image Source="Scene1.png" Aspect="AspectFill" />
+    </StackLayout>
+
+</ContentPage>
